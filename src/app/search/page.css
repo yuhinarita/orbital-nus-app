@@ -1,0 +1,42 @@
+.first {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 5px;
+} 
+
+.margin {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.width {
+    width: 100%;
+}
+
+.second {
+    grid-column: span 3 / span 3;
+}
+
+.results {
+    margin-bottom: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-width: 2px;
+    padding-bottom: 2px;
+} 
+
+.align {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    width: 5px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
